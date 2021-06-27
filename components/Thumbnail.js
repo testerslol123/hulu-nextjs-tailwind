@@ -1,15 +1,15 @@
-import React from 'react'
+// import React from 'react'
 
 import Image from 'next/image';
 import { ThumbUpIcon } from '@heroicons/react/outline';
 
-const  Thumbnail = ({result}) => {
+function Thumbnail ({result}) {
     console.log('thumbnail')
     console.log(result)
     const BASE_URL = "https://image.tmdb.org/t/p/original";
 
     return (
-        <div className="p-2 group cursor-pointer transition-duration-200 ease-in transform sm:hover:scal-105 hover:z-50">
+        <div className="group p-2 cursor-pointer transition-duration-200 ease-in transform sm:hover:scal-105 hover:z-50">
             <Image 
                 layout="responsive"
                 src={

@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import 'tailwindcss/tailwind.css'
 
 import Header from '../components/Header';
@@ -11,7 +10,7 @@ export default function Home({results}) {
   return (
     <div>
       <Head>
-        <title>Hulu 2.0</title>
+        <title>Hulu 2.0 By Danny</title>
         <link rel="icon"></link>
       </Head>
       {/* Header */}
